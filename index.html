@@ -1,25 +1,37 @@
-
-</head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yuvraj Pai Khot | Portfolio</title>
-   if (screen.width <= 900) {
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        iframe {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            margin: 0;
+            padding: 0;
+            z-index: 999999;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://yuvraj7khot.wixsite.com/portfolio"></iframe>
 
-      <body>
-  
-         <iframe src="https://yuvraj7khot.wixsite.com/portfolio" style="    position: fixed;    left: 0px;    top: -51px;    width: 110%;    height: 108%;">
-    </iframe>  
-    
-      </body>
-  }
-  
-  <body>
-    <iframe src="https://yuvraj7khot.wixsite.com/portfolio" style="position:fixed; top:-50px; left:0px; bottom:0px; right:0px; width:100%; height:110%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
-  </iframe>  
-     
-    </body>
-      <script type="text/javascript">
-  </script>
-    
-  
-  
-  </body></html>
+    <script type="text/javascript">
+    if (screen.width <= 900) {
+        document.location = "/mobile.html";
+    }
+    </script>
+</body>
+</html>
